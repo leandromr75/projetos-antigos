@@ -1,0 +1,9 @@
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\bin\Debug\teste.exe.config
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\bin\Debug\teste.exe
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\bin\Debug\teste.pdb
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\teste.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\teste.Form1.resources
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\teste.Properties.Resources.resources
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\teste.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\teste.exe
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\teste.pdb

@@ -1,0 +1,9 @@
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\bin\Debug\divideDecimal.exe.config
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\bin\Debug\divideDecimal.exe
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\bin\Debug\divideDecimal.pdb
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\obj\Debug\divideDecimal.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\obj\Debug\divideDecimal.Form1.resources
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\obj\Debug\divideDecimal.Properties.Resources.resources
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\obj\Debug\divideDecimal.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\obj\Debug\divideDecimal.exe
+D:\Projetos_Visual_Studio\testessss\divideDecimal\divideDecimal\obj\Debug\divideDecimal.pdb

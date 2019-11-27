@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="939042cd-4c81-4f98-85c6-1b733baeaa8a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://nfeserverrdi.cloudapp.net/nfeservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="nfeservice.wsdl" MetadataType="Wsdl" ID="12a642dd-ac14-4849-b01a-2516977b0b76" SourceId="1" SourceUrl="http://nfeserverrdi.cloudapp.net/nfeservice.svc?wsdl" />
+    <MetadataFile FileName="nfeservice.xsd" MetadataType="Schema" ID="b42d8ce2-e81e-40b5-a571-b2c284289ffa" SourceId="1" SourceUrl="http://nfeserverrdi.cloudapp.net/nfeservice.svc?xsd=xsd0" />
+    <MetadataFile FileName="nfeservice1.xsd" MetadataType="Schema" ID="4558d91e-12f4-43e7-9289-393481d259e0" SourceId="1" SourceUrl="http://nfeserverrdi.cloudapp.net/nfeservice.svc?xsd=xsd1" />
+    <MetadataFile FileName="nfeservice.disco" MetadataType="Disco" ID="d9bf29db-0682-4535-85b6-4e6956fc39b5" SourceId="1" SourceUrl="http://nfeserverrdi.cloudapp.net/nfeservice.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

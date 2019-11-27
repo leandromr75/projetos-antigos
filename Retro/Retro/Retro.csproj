@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BE1FB77-8727-4CFD-9EAF-38B07654F25F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Retro</RootNamespace>
+    <AssemblyName>Retro</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Lista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lista.Designer.cs">
+      <DependentUpon>Lista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualiza.Designer.cs">
+      <DependentUpon>Visualiza.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista.resx">
+      <DependentUpon>Lista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Visualiza.resx">
+      <DependentUpon>Visualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esquerda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\direita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nm1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nm2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nm3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nm4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nm5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snes2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mega.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\procurar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snesani.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101.jpg" />
+    <None Include="Resources\102.jpg" />
+    <None Include="Resources\103.jpg" />
+    <None Include="Resources\104.png" />
+    <None Include="Resources\105.jpg" />
+    <Content Include="Resources\21.jpg" />
+    <None Include="Resources\smk.jpg" />
+    <None Include="Resources\mariokart.JPG" />
+    <None Include="Resources\retro.gif" />
+    <None Include="Resources\211.jpg" />
+    <Content Include="Resources\22.JPG" />
+    <None Include="Resources\221.JPG" />
+    <Content Include="Resources\23.JPG" />
+    <None Include="Resources\231.JPG" />
+    <Content Include="Resources\24.JPG" />
+    <None Include="Resources\241.JPG" />
+    <Content Include="Resources\25.JPG" />
+    <None Include="Resources\251.JPG" />
+    <None Include="Resources\31.jpg" />
+    <None Include="Resources\32.jpg" />
+    <None Include="Resources\33.jpg" />
+    <None Include="Resources\34.png" />
+    <None Include="Resources\35.jpg" />
+    <None Include="Resources\castlevania4.JPG" />
+    <None Include="Resources\castle.jpg" />
+    <None Include="Resources\41.jpg" />
+    <None Include="Resources\42.jpg" />
+    <None Include="Resources\43.jpg" />
+    <None Include="Resources\44.jpeg" />
+    <None Include="Resources\45.jpg" />
+    <None Include="Resources\axe.jpg" />
+    <None Include="Resources\51.jpg" />
+    <None Include="Resources\52.jpg" />
+    <None Include="Resources\53.jpg" />
+    <None Include="Resources\54.jpg" />
+    <None Include="Resources\55.jpg" />
+    <None Include="Resources\6.JPG" />
+    <None Include="Resources\61.jpg" />
+    <None Include="Resources\62.png" />
+    <None Include="Resources\63.jpg" />
+    <None Include="Resources\64.png" />
+    <None Include="Resources\65.jpg" />
+    <None Include="Resources\7.jpg" />
+    <None Include="Resources\71.jpg" />
+    <None Include="Resources\72.jpg" />
+    <None Include="Resources\73.jpg" />
+    <None Include="Resources\74.jpg" />
+    <None Include="Resources\75.jpg" />
+    <None Include="Resources\dk2.jpg" />
+    <None Include="Resources\91.jpg" />
+    <None Include="Resources\92.jpg" />
+    <None Include="Resources\93.jpg" />
+    <None Include="Resources\94.jpg" />
+    <None Include="Resources\95.png" />
+    <None Include="Resources\Donkey kong Country 31.jpg" />
+    <Content Include="Resources\Image1.jpg" />
+    <Content Include="Resources\mansell-c.JPG" />
+    <Content Include="Resources\mario-c.JPG" />
+    <None Include="Resources\PC_Engine_logo-B.png" />
+    <None Include="Resources\nintendo_logo.png" />
+    <None Include="Resources\mario-c1.JPG" />
+    <None Include="Resources\mansell-c1.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

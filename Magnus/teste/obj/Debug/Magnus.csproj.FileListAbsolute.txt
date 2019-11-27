@@ -1,0 +1,44 @@
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\bin\Debug\Magnus_Açaí.exe.config
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\bin\Debug\Magnus_Açaí.exe
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\bin\Debug\Magnus_Açaí.pdb
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\teste.Form_principal.resources
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\teste.Properties.Resources.resources
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\Magnus.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\Magnus_Açaí.exe
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\teste\teste\obj\Debug\Magnus_Açaí.pdb
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\bin\Debug\Magnus_Açaí.exe.config
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\obj\Debug\Magnus_Açaí.exe
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\obj\Debug\Magnus_Açaí.pdb
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\bin\Debug\Magnus_Açaí.exe
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\bin\Debug\Magnus_Açaí.pdb
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\obj\Debug\Magnus.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\obj\Debug\teste.Form_principal.resources
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\obj\Debug\teste.Properties.Resources.resources
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\obj\Debug\Magnus.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\obj\Debug\teste.Tela_inicial.resources
+D:\Projetos_Visual_Studio\livro deitel c# 2003 cap 16\Magnus\teste\obj\Debug\teste.Cadastro.resources
+D:\Magnus\teste\bin\Debug\Magnus_Açaí.exe.config
+D:\Magnus\teste\obj\Debug\Magnus_Açaí.exe
+D:\Magnus\teste\obj\Debug\Magnus_Açaí.pdb
+C:\Users\Leandro\Desktop\backup\Magnus\teste\bin\Debug\Magnus_Açaí.exe.config
+C:\Users\Leandro\Desktop\backup\Magnus\teste\obj\Debug\Magnus_Açaí.exe
+C:\Users\Leandro\Desktop\backup\Magnus\teste\obj\Debug\Magnus_Açaí.pdb
+C:\Users\Leandro\Desktop\Magnus\teste\bin\Debug\Magnus_Açaí.exe.config
+C:\Users\Leandro\Desktop\Magnus\teste\bin\Debug\Magnus_Açaí.exe
+C:\Users\Leandro\Desktop\Magnus\teste\bin\Debug\Magnus_Açaí.pdb
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Cadastro.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Entregas_cadastro.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Form_principal.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Login.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Login2.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Mesas_livres.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Movimento.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Properties.Resources.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Taxa.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Tela_auxiliar.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Tela_inicial.resources
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\Magnus.csproj.GenerateResource.Cache
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\Magnus_Açaí.exe
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\Magnus_Açaí.pdb
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\Magnus.csprojResolveAssemblyReference.cache
+C:\Users\Leandro\Desktop\Magnus\teste\obj\Debug\teste.Login3.resources

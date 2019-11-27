@@ -1,0 +1,8 @@
+D:\Projetos_Visual_Studio\PegarNomeComputador\PegarNomeComputador\bin\Debug\PegarNomeComputador.exe
+D:\Projetos_Visual_Studio\PegarNomeComputador\PegarNomeComputador\bin\Debug\PegarNomeComputador.pdb
+D:\Projetos_Visual_Studio\PegarNomeComputador\PegarNomeComputador\obj\Debug\PegarNomeComputador.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\PegarNomeComputador\PegarNomeComputador\obj\Debug\PegarNomeComputador.Form1.resources
+D:\Projetos_Visual_Studio\PegarNomeComputador\PegarNomeComputador\obj\Debug\PegarNomeComputador.Properties.Resources.resources
+D:\Projetos_Visual_Studio\PegarNomeComputador\PegarNomeComputador\obj\Debug\PegarNomeComputador.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\PegarNomeComputador\PegarNomeComputador\obj\Debug\PegarNomeComputador.exe
+D:\Projetos_Visual_Studio\PegarNomeComputador\PegarNomeComputador\obj\Debug\PegarNomeComputador.pdb

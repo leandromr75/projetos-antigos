@@ -1,0 +1,8 @@
+D:\Projetos_Visual_Studio\TesteAnimação\TesteAnimação\bin\Debug\TesteAnimação.exe
+D:\Projetos_Visual_Studio\TesteAnimação\TesteAnimação\bin\Debug\TesteAnimação.pdb
+D:\Projetos_Visual_Studio\TesteAnimação\TesteAnimação\obj\Debug\TesteAnimação.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\TesteAnimação\TesteAnimação\obj\Debug\TesteAnimação.Form1.resources
+D:\Projetos_Visual_Studio\TesteAnimação\TesteAnimação\obj\Debug\TesteAnimação.Properties.Resources.resources
+D:\Projetos_Visual_Studio\TesteAnimação\TesteAnimação\obj\Debug\TesteAnimação.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\TesteAnimação\TesteAnimação\obj\Debug\TesteAnimação.exe
+D:\Projetos_Visual_Studio\TesteAnimação\TesteAnimação\obj\Debug\TesteAnimação.pdb

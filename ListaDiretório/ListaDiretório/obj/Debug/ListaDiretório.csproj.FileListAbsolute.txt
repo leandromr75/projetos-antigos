@@ -1,0 +1,9 @@
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\obj\Debug\ListaDiretório.Form1.resources
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\obj\Debug\ListaDiretório.Properties.Resources.resources
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\obj\Debug\ListaDiretório.csproj.GenerateResource.Cache
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\bin\Debug\Artes_APP.exe.config
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\bin\Debug\Artes_APP.exe
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\bin\Debug\Artes_APP.pdb
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\obj\Debug\Artes_APP.exe
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\obj\Debug\Artes_APP.pdb
+C:\Users\TI\Desktop\ListaDiretório\ListaDiretório\obj\Debug\ListaDiretório.csprojResolveAssemblyReference.cache

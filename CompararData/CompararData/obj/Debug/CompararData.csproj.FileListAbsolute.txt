@@ -1,0 +1,8 @@
+D:\Projetos_Visual_Studio\CompararData\CompararData\obj\Debug\CompararData.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\CompararData\CompararData\obj\Debug\CompararData.Form1.resources
+D:\Projetos_Visual_Studio\CompararData\CompararData\obj\Debug\CompararData.Properties.Resources.resources
+D:\Projetos_Visual_Studio\CompararData\CompararData\obj\Debug\CompararData.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\CompararData\CompararData\bin\Debug\CompararData.exe
+D:\Projetos_Visual_Studio\CompararData\CompararData\bin\Debug\CompararData.pdb
+D:\Projetos_Visual_Studio\CompararData\CompararData\obj\Debug\CompararData.exe
+D:\Projetos_Visual_Studio\CompararData\CompararData\obj\Debug\CompararData.pdb

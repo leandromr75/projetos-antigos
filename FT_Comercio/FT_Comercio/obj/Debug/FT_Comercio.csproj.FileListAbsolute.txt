@@ -1,0 +1,28 @@
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\bin\Debug\FT_Comercio.exe
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\bin\Debug\FT_Comercio.exe.config
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\bin\Debug\FT_Comercio.exe
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\bin\Debug\FT_Comercio.pdb
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Form1.resources
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Impressao.resources
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Pesq.resources
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Pesquisa.resources
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Properties.Resources.resources
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\RdlCompile.cache
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\RdlCompile.compiled
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.exe
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.pdb
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\bin\Debug\FT_Comercio.exe.config
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.exe
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.pdb
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\bin\Debug\FT_Comercio.exe
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\bin\Debug\FT_Comercio.pdb
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.csprojResolveAssemblyReference.cache
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Form1.resources
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Impressao.resources
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Pesq.resources
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Pesquisa.resources
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.Properties.Resources.resources
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\FT_Comercio.csproj.GenerateResource.Cache
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\RdlCompile.cache
+C:\Users\leand\Desktop\C#\Projetos Arquivados\Projetos Antigos\FT_Comercio\FT_Comercio\obj\Debug\RdlCompile.compiled

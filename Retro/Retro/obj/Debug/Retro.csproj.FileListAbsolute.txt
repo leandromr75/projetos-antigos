@@ -1,0 +1,10 @@
+D:\Projetos_Visual_Studio\Retro\Retro\bin\Debug\Retro.exe
+D:\Projetos_Visual_Studio\Retro\Retro\bin\Debug\Retro.pdb
+D:\Projetos_Visual_Studio\Retro\Retro\obj\Debug\Retro.Form1.resources
+D:\Projetos_Visual_Studio\Retro\Retro\obj\Debug\Retro.Properties.Resources.resources
+D:\Projetos_Visual_Studio\Retro\Retro\obj\Debug\Retro.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\Retro\Retro\obj\Debug\Retro.exe
+D:\Projetos_Visual_Studio\Retro\Retro\obj\Debug\Retro.pdb
+D:\Projetos_Visual_Studio\Retro\Retro\obj\Debug\Retro.Lista.resources
+D:\Projetos_Visual_Studio\Retro\Retro\obj\Debug\Retro.Visualiza.resources
+D:\Projetos_Visual_Studio\Retro\Retro\obj\Debug\Retro.csprojResolveAssemblyReference.cache

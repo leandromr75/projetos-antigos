@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<script>
+    function visualizar(imgurl) {
+
+
+        var newwin = window.open('', 'miniwin', 'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=1,width=700,height=500');
+        
+        newwin.document.write('<html><head><title>Imagem Ribeirão Preto</title></head>');
+        newwin.document.write('<body>');
+        newwin.document.write('<img src=' + imgurl + ' style="width:100%">');
+        newwin.document.write('</body></html>');
+
+        newwin.document.close();
+
+    }
+</script>
+<script>
+    function enviar() {
+        var test = document.getElementById('sugest');
+        if (test <= 0) {
+            var iframe = document.createElement('iframe');
+            iframe.src = 'http://localhost:12231//sugestoes.aspx';
+            iframe.style.width = '100%';
+            iframe.style.height = '400px';
+            iframe.id = "sugest";
+
+            document.getElementById("Contato").appendChild(iframe);
+        }
+        else {
+            var r = confirm("Deseja enviar outro comentário?");
+            if (r == true) {
+                document.getElementById("Contato").removeChild(document.getElementById("sugest"));
+                var iframe = document.createElement('iframe');
+                iframe.src = 'http://localhost:12231//sugestoes.aspx';
+                iframe.style.width = '100%';
+                iframe.style.height = '400px';
+                iframe.id = "sugest";
+
+                document.getElementById("Contato").appendChild(iframe);
+            } 
+            
+        }
+        
+    }
+</script>
+<script>
+    function mostra(artigo) {
+        if (artigo == 1) {
+            var tem = document.getElementById("p1Contato");
+            if (tem <= 0) {
+
+                var iframe = document.createElement('p');
+                iframe.innerHTML = "teste teste teste teste teste teste teste teste teste teste teste teste" +
+                    "teste teste teste teste teste teste teste teste teste teste teste teste" +
+                    "teste teste teste teste teste teste teste teste teste teste teste teste" +
+                    "teste teste teste teste teste teste teste teste teste teste teste teste";
+                
+                iframe.id = "p1Contato";
+                iframe.style.maxWidth = "1024px";
+                iframe.style.textAlign = "justify";
+                document.getElementById("art1").appendChild(iframe);
+
+                var iframe1 = document.createElement('p');
+                
+                iframe1.innerHTML = "kddkjdfkj djkdkldlkd jksdjdsjdskld jskdsklsdkldlk" +
+                    "djkkdk kkjdjkdlk kldjdkllkd lkdkldkllkd ldkldklkl";
+                iframe1.id = "p1Contato";
+                iframe1.style.maxWidth = "1024px";
+                iframe1.style.textAlign = "justify";
+                document.getElementById("art1").appendChild(iframe1);
+                var k = document.getElementById('but1');
+                k.innerHTML = "Ocultar Texto"
+                document.getElementById('art1').appendChild(k);
+            }
+            else {
+                var x = document.getElementById('art1');
+                var z = x.childNodes.length;
+
+                var w = 0;
+                w = z;
+
+                for (var i = 0; i < w; i++) {
+                    if (document.getElementById('p1Contato')) {
+                        document.getElementById('art1').removeChild(document.getElementById('p1Contato'));
+                    }
+
+                    var y = document.getElementById('but1');
+                    y.innerHTML = "Leia Mais"
+                    document.getElementById('art1').appendChild(y);
+                }
+            }
+        }
+        if (artigo == 2) {
+            var tem = document.getElementById("p2Contato");
+            if (tem <= 0) {
+
+                var iframe = document.createElement('p');
+                iframe.innerHTML = "teste teste teste";
+
+                iframe.id = "p2Contato";
+
+                document.getElementById("art2").appendChild(iframe);
+
+                var iframe1 = document.createElement('p');
+                iframe1.innerHTML = "kddkjdfkj djkdkldlkd jksdjdsjdskld jskdsklsdkldlk" +
+                    "djkkdk kkjdjkdlk kldjdkllkd lkdkldkllkd ldkldklkl";
+                iframe1.id = "p2Contato";
+                document.getElementById("art2").appendChild(iframe1);
+                var k = document.getElementById('but2');
+                k.innerHTML = "Ocultar Texto"
+                document.getElementById('art2').appendChild(k);
+            }
+            else {
+                var x = document.getElementById('art2');
+                var z = x.childNodes.length;
+
+                var w = 0;
+                w = z;
+
+                for (var i = 0; i < w; i++) {
+                    if (document.getElementById('p2Contato')) {
+                        document.getElementById('art2').removeChild(document.getElementById('p2Contato'));
+                    }
+
+                    var y = document.getElementById('but2');
+                    y.innerHTML = "Leia Mais"
+                    document.getElementById('art2').appendChild(y);
+                }
+            }
+        }
+    }
+</script>
+
+<script>
+    function openCity(evt, cityName, construtor) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+
+        if (construtor == "videos") {
+            var tem = document.getElementById("randomid");
+            if (tem <= 0) {
+                var iframe = document.createElement('iframe');
+                iframe.frameBorder = 0;                
+                iframe.height = "200px";
+                iframe.width = "250px";
+                iframe.style.margin = "3px";
+
+                iframe.id = "randomid";
+                iframe.setAttribute("src", "http://www.youtube.com/embed/XGSy3_Czz8k");
+                iframe.setAttribute("allowfullscreen", "allowfullscreen");
+                document.getElementById("Vídeos").appendChild(iframe);
+
+                var iframe1 = document.createElement('iframe');
+                iframe1.frameBorder = 0;
+                iframe1.style.margin = "3px";
+                iframe1.height = "200px";
+                iframe1.width = "250px";
+                
+                iframe1.id = "randomid1";
+                iframe1.setAttribute("src", "http://www.youtube.com/embed/XGSy3_Czz8k");
+                iframe1.setAttribute("allowfullscreen", "allowfullscreen");
+                document.getElementById("Vídeos").appendChild(iframe1);
+            }
+
+            
+        }
+        
+    }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Eleições 2016</title>
+    <style>
+        #footer {
+            background-color:white;
+            color:lightblue;
+            font-weight:bold;
+            clear:both;
+            font-size:small;
+            text-align:center;
+            padding:5px; 
+        }
+        body {
+            
+            font-family: "Lato", sans-serif;
+            font-size:medium;
+            margin-left:50px;
+            margin-right:50px;
+            margin-top:50px;
+            
+            
+            
+        }
+
+        ul.tab {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color:	#CFB53B;
+            
+        }
+
+            /* Float the list items side by side */
+            ul.tab li {
+                float: left;
+            }
+
+                /* Style the links inside the list items */
+                ul.tab li a {
+                    display: inline-block;
+                    color: black;
+                    font-weight:bold;
+                    text-align: left;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    transition: 0.3s;
+                    font-size: 18px;
+                    
+                }
+
+                    /* Change background color of links on hover */
+                    ul.tab li a:hover {
+                        background-color: #ddd;
+                    }
+
+                    /* Create an active/current tablink class */
+                    ul.tab li a:focus, .active {
+                        background-color: #ccc;
+                    }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    
+    <div>
+        <img style="width:100%" src="images/ze4.jpg">
+    </div>
+    
+    <ul class="tab">
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Perfil', '')">Perfil</a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Notícias','')">Notícias</a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Vídeos','videos')">Vídeos</a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Na Mídia','')">Na Mídia</a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Prestação de Contas','')">Prestação de Contas</a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Contato','')">Contato</a></li>
+    </ul>    
+    
+    <div id="Início" class="tabcontent" style="display:block">
+        
+        <div style="margin:20px">
+            <h5>Ribeirão Preto 14/06/2016</h5>
+            <video width="320" height="240" controls title="Video teste aula #1" poster="videos/ead.jpg">
+                <source src="videos/Massacration - The Mummy legendado.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+            <img src="images/ribeirao-preto.jpg" style="width:30%;cursor:zoom-in;display:inline-block" onclick="visualizar('images/ribeirao-preto.jpg')">
+
+            <p style="max-width:1024px;text-align:justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a semper dui.Fusce quis diam enim. Curabitur mattis enim sit amet nunc sagittis consectetur. <br>Integer metus magna, consectetur ut iaculis non, pulvinar ut ipsum. Sed non leo nisl. Pellentesque et pellentesque velit, ac malesuada metus. Nulla facilisis nisi lacus, sed suscipit sem malesuada eget. Donec eu euismod sapien.
+
+                <br> Etiam turpis odio, dignissim eu dictum nec, venenatis sed ex. Cras pharetra venenatis velit, id molestie nibh cursus vel. Sed a elementum augue. Aliquam pulvinar mi ac pretium bibendum. Sed tincidunt, diam quis lobortis ultricies, mi neque tristique justo, in placerat sapien risus quis nisl. Mauris accumsan tempus mi non consequat. Suspendisse consequat consectetur lorem, ut congue ipsum aliquam ut. Integer vel massa sapien. Proin auctor elit non sem sollicitudin cursus. Etiam ipsum arcu, mollis non dapibus rutrum, cursus a nulla. Vivamus rutrum enim et arcu malesuada vehicula. Nam mollis metus et risus condimentum, at pulvinar ligula tincidunt. Vestibulum nisi orci, efficitur a lectus eu, mattis dapibus urna.
+
+                <br>Nunc nec mi varius tellus tempor suscipit. Nulla consectetur nulla nec dui tempor, a rhoncus nunc tincidunt. Donec vel tellus lorem. Suspendisse varius mattis euismod. Nullam volutpat ullamcorper blandit. Sed a nibh aliquet, suscipit velit et, facilisis tellus. Suspendisse fermentum cursus ultricies. Fusce eget accumsan sem. Nam in nunc mi. Vivamus ultricies eleifend magna, id congue eros maximus non. Phasellus finibus, lorem sit amet commodo mattis, arcu felis efficitur tortor, tincidunt ultricies magna felis ut dolor. Aliquam nec faucibus quam, non interdum leo.
+
+                <br>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus ligula ante, hendrerit vitae volutpat eget, elementum cursus nulla. Curabitur ultricies orci et lorem pulvinar, at sollicitudin quam dictum. Pellentesque diam lorem, porta quis nisl vel, semper porta velit. Donec et lacus sed lorem mattis posuere. Morbi laoreet, ex quis placerat aliquet, nunc dui hendrerit massa, quis vehicula nulla lectus sed eros. Nulla id pretium nibh, eget semper massa. Proin nec eros eu felis condimentum sodales vitae id odio. In viverra est at dolor fermentum, eget sollicitudin dolor vestibulum. Sed cursus laoreet risus fringilla fermentum. Sed orci ligula, cursus ut consequat ac, porttitor in ipsum. Nam metus lacus, placerat sed quam id, feugiat blandit orci. Donec vel purus mi. Nullam ac ipsum tortor. Ut sed imperdiet nibh.
+
+                <br>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris quis est dui. Quisque pharetra elementum augue ut sodales. Suspendisse nec pulvinar nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed gravida hendrerit consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum interdum tristique sapien..
+            </p>
+
+
+        </div>
+    </div>
+        
+    
+    
+    <div id="Contato" class="tabcontent">
+        <button type="button" style="font-size:medium" onclick="enviar()";">Enviar comentário ou sugestão</button><br><br>
+        
+        
+    </div>
+    
+    <div id="Na Mídia" class="tabcontent">
+        <h3>midia</h3>
+        <p>London is the capital city of England.</p>
+    </div>
+        
+    <div id="Prestação de Contas" class="tabcontent">
+        <h5>contas</h5>
+        <p>London is the capital city of England.</p>
+    </div>
+
+    
+    <div id="Perfil" class="tabcontent">
+        <h5>Ribeirão Preto 14/06/2016</h5>
+        
+        <p>London is the capital city of England.</p>        
+    </div>
+
+    <div id="Notícias" class="tabcontent">
+        <div id="art1" style="margin:20px;">
+            <h5>Ribeirão Preto 14/06/2016</h5>
+            <img src="images/ribeirao-preto.jpg" style="width:30%;">
+
+            <p style="max-width:1024px;text-align:justify;">
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.<br>
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.<br>
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.<br>
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.<br>
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.<br>
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.
+                London is the capital city of England.London is the capital city of England.<br>
+
+                London is the capital city of England.<br>
+                London is the capital city of England.London is the capital city of England.
+            </p>
+            <button id="but1" type="button" onclick="mostra(1)">Leia Mais</button>
+            <button id="butteste" type="button" onclick="grava()">Texto</button>
+        </div>
+        <br>
+        <div id="art2" style="margin:20px">
+            <h5>Ribeirão Preto 10/06/2016</h5>
+            <img src="images/ribeirao-preto.jpg" style="width:30%;display:inline-block">
+            <img src="images/ribeirao-preto.jpg" style="width:30%;display:inline-block;margin-left:30px">
+            <p>London 2 is the capital city of England.</p>
+            
+        </div>
+    </div>
+
+    <div id="Vídeos" class="tabcontent">
+        
+        
+    </div>
+    <br><br><br>
+    <div id="footer">
+        <img style="width:100%" src="images/footer.jpg">
+        <br><br>
+        © 2016 Leandro Ribeiro
+    </div>
+
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+

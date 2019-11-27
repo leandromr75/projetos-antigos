@@ -1,0 +1,9 @@
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\bin\Debug\RecolheEAN.exe
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\bin\Debug\RecolheEAN.pdb
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\obj\Debug\RecolheEAN.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\obj\Debug\RecolheEAN.Form1.resources
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\obj\Debug\RecolheEAN.Properties.Resources.resources
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\obj\Debug\RecolheEAN.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\obj\Debug\RecolheEAN.exe
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\obj\Debug\RecolheEAN.pdb
+D:\Projetos_Visual_Studio\RecolheEAN\RecolheEAN\bin\Debug\Aspose.BarCode.dll

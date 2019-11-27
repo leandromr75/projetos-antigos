@@ -1,0 +1,10 @@
+D:\TESTE\ProcessorName\ProcessorName\bin\Debug\ProcessorName.exe
+D:\TESTE\ProcessorName\ProcessorName\bin\Debug\ProcessorName.pdb
+D:\TESTE\ProcessorName\ProcessorName\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TESTE\ProcessorName\ProcessorName\obj\x86\Debug\ProcessorName.exe
+D:\TESTE\ProcessorName\ProcessorName\obj\x86\Debug\ProcessorName.pdb
+C:\Users\TI\Desktop\Como Obter Informações da Placa Mãe e Processador\C#\ProcessorName\obj\x86\Debug\ProcessorName.exe
+C:\Users\TI\Desktop\Como Obter Informações da Placa Mãe e Processador\C#\ProcessorName\obj\x86\Debug\ProcessorName.pdb
+C:\Users\TI\Desktop\Como Obter Informações da Placa Mãe e Processador\C#\ProcessorName\bin\Debug\ProcessorName.exe
+C:\Users\TI\Desktop\Como Obter Informações da Placa Mãe e Processador\C#\ProcessorName\bin\Debug\ProcessorName.pdb
+C:\Users\TI\Desktop\Como Obter Informações da Placa Mãe e Processador\C#\ProcessorName\obj\x86\Debug\ProcessorName.csprojResolveAssemblyReference.cache

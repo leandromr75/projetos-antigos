@@ -1,0 +1,8 @@
+D:\Projetos_Visual_Studio\Preencher_data\Preencher_data\bin\Debug\Preencher_data.exe
+D:\Projetos_Visual_Studio\Preencher_data\Preencher_data\bin\Debug\Preencher_data.pdb
+D:\Projetos_Visual_Studio\Preencher_data\Preencher_data\obj\Debug\Preencher_data.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\Preencher_data\Preencher_data\obj\Debug\Preencher_data.Form1.resources
+D:\Projetos_Visual_Studio\Preencher_data\Preencher_data\obj\Debug\Preencher_data.Properties.Resources.resources
+D:\Projetos_Visual_Studio\Preencher_data\Preencher_data\obj\Debug\Preencher_data.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\Preencher_data\Preencher_data\obj\Debug\Preencher_data.exe
+D:\Projetos_Visual_Studio\Preencher_data\Preencher_data\obj\Debug\Preencher_data.pdb

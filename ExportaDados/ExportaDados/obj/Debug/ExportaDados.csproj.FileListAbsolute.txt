@@ -1,0 +1,8 @@
+D:\Projetos_Visual_Studio\ExportaDados\ExportaDados\bin\Debug\ExportaDados.exe
+D:\Projetos_Visual_Studio\ExportaDados\ExportaDados\bin\Debug\ExportaDados.pdb
+D:\Projetos_Visual_Studio\ExportaDados\ExportaDados\obj\Debug\ExportaDados.csprojResolveAssemblyReference.cache
+D:\Projetos_Visual_Studio\ExportaDados\ExportaDados\obj\Debug\ExportaDados.Form1.resources
+D:\Projetos_Visual_Studio\ExportaDados\ExportaDados\obj\Debug\ExportaDados.Properties.Resources.resources
+D:\Projetos_Visual_Studio\ExportaDados\ExportaDados\obj\Debug\ExportaDados.csproj.GenerateResource.Cache
+D:\Projetos_Visual_Studio\ExportaDados\ExportaDados\obj\Debug\ExportaDados.exe
+D:\Projetos_Visual_Studio\ExportaDados\ExportaDados\obj\Debug\ExportaDados.pdb

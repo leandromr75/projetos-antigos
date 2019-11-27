@@ -1,0 +1,10 @@
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\bin\Debug\WF_QrCode_CSharp.exe.config
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\bin\Debug\WF_QrCode_CSharp.exe
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\bin\Debug\WF_QrCode_CSharp.pdb
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\bin\Debug\MessagingToolkit.QRCode.dll
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\obj\Debug\WF_QrCode_CSharp.csprojResolveAssemblyReference.cache
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\obj\Debug\WF_QrCode_CSharp.Form1.resources
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\obj\Debug\WF_QrCode_CSharp.Properties.Resources.resources
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\obj\Debug\WF_QrCode_CSharp.csproj.GenerateResource.Cache
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\obj\Debug\WF_QrCode_CSharp.exe
+C:\_vbn\WF_QrCode_CSharp\WF_QrCode_CSharp\obj\Debug\WF_QrCode_CSharp.pdb

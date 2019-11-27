@@ -1,0 +1,16 @@
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\bin\Release\FT_Comercio.exe.config
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\bin\Release\FT_Comercio.exe
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\bin\Release\FT_Comercio.pdb
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.Form1.resources
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.Impressao.resources
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.Pesq.resources
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.Pesquisa.resources
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.Properties.Resources.resources
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.csproj.GenerateResource.Cache
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\RdlCompile.cache
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\RdlCompile.compiled
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.exe
+C:\Users\Leandro\Desktop\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.pdb
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\bin\Release\FT_Comercio.exe.config
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.exe
+D:\Projetos_Visual_Studio\FT_Comercio\FT_Comercio\obj\Release\FT_Comercio.pdb

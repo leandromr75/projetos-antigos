@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head><link rel="stylesheet" type="text/css" href="description/Combined.css,0:HeaderFooterSprite,0:Header.NonMtps,1:LinkList;/Areas/Centers/Themes/StandardDevCenter/Content:0,/Areas/Epx/Themes/Base/Content:1&amp;amp;hashKey=C9973DA951AE6202C9B348379A1BE49D" xmlns="http://www.w3.org/1999/xhtml" />
+<link type="text/css" rel="stylesheet" xmlns="http://www.w3.org/1999/xhtml" />
+<link rel="stylesheet" type="text/css" href="description/67b74b86-a273-4ad7-9ed5-0f97276412eaCombined.css,0:HeaderFooterSprite,0:Footer.NonMtps,1:LinkList;/Areas/Centers/Themes/StandardDevCenter/Content:0,/Areas/Epx/Themes/Base/Content:1&amp;amp;hashKey=F576C687BC536B84D6E5B3246EE39B49" xmlns="http://www.w3.org/1999/xhtml" />
+<link type="text/css" rel="stylesheet" xmlns="http://www.w3.org/1999/xhtml" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Como Obter Informa&#231;&#245;es da Placa M&#227;e e Processador</title>
+        <link href="description/Galleries.css" type="text/css" rel="Stylesheet" /><link href="description/Layout.css" type="text/css" rel="Stylesheet" /><link href="description/Brand.css" type="text/css" rel="Stylesheet" />
+        <link href="description/iframedescription.css" rel="Stylesheet" type="text/css" />
+        <script src="description/offline.js" type="text/javascript"></script>
+        <style type="text/css">
+            #projectInfo {
+                overflow: auto;
+            }
+            #longDesc {
+                clear:both;
+                margin: 25px 0 10px 0;
+            }
+
+            #SampleIndexList{
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+<body>
+    <div id="offlineDescription">
+        <h1>Como Obter Informa&#231;&#245;es da Placa M&#227;e e Processador</h1>
+        <br/>
+        <div id="projectInfo">
+            <div class="section">
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Tecnologias">Tecnologias</label>
+                        <div id="Tecnologias">
+                            C#, .NET Framework, ManagementObjec<wbr />tSearcher
+                        </div>
+                    </div>
+                    <div class="itemBarLong tagsContainer">
+                        <label for="T&#243;picos">T&#243;picos</label>
+                        <div id="T&#243;picos">
+                            desempenho, Monitoramento
+                        </div>
+                    </div>
+                <div class="itemBarLong">
+                    <label for="Platforms">Platforms</label>
+                    <div id="Platforms">
+                        Desktop, Web
+                    </div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="Requirements">Requirements</label>
+                    <div id="Requirements">
+                        
+                    </div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Primary language</label>
+                    <div id="LastUpdated">pt-BR</div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">&#218;ltima Atualiza&#231;&#227;o</label>
+                    <div id="LastUpdated">03/02/2012</div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="License">Licen&#231;a</label>
+                    <div id="License">
+                        <a href="license.rtf">Licen&#231;a do Apache, Vers&#227;o 2.0</a></div>
+                </div>
+                <div class="itemBar">
+                    <div class="viewonlinecont">
+                        <a data-link="online" href="http://code.msdn.microsoft.com/Como-Obter-Informaes-da-df7dccc4">Exiba este exemplo online</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                   
+<script type="text/javascript">
+    function initializePage() {
+        var otherTabClass = 'otherTab';
+        var hiddenPreClass = 'hidden';
+
+        var htmlDecode = function(encodedData) {
+            var decodedData = "";
+            if (encodedData) {
+                var div = document.createElement('div');
+                div.innerHTML = encodedData;
+                decodedData = div.firstChild.nodeValue.replace( /\\r\\n/ig , '\r\n');
+            }
+            return decodedData;
+        };
+                
+        Galleries.iterateElem(Galleries.findElem(null, 'div', 'scriptcode'), function (index, scriptBlock) {
+            var titleElem = Galleries.findElem(scriptBlock, 'div', 'title')[0];
+            var labelElems = Galleries.findElem(titleElem, 'span');
+            if (labelElems.length == 0) {
+                labelElems = titleElem;
+            }
+            var languageSpans = Galleries.findElem(scriptBlock, 'span', 'hidden');
+            var pres = Galleries.findElem(scriptBlock, 'pre');
+            if (languageSpans.length > 0 && pres.length > 1) {
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    var languageSpan = languageSpans[index];
+                            
+                    elem.code = codePre.innerHTML.replace( /(\r(\n)?)|((\r)?\n)/ig , '\\r\\n');
+                            
+                    codePre.className = codePre.className.replace(hiddenPreClass, '');
+                            
+                    languageSpan.parentNode.removeChild(languageSpan);
+                });
+
+                pres = Galleries.findElem(scriptBlock, 'pre');
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    if (index == 0) {
+                        scriptBlock.activeTab = 0;
+                    }
+                    else {
+                        labelSpan.className += otherTabClass;
+                        codePre.className += hiddenPreClass;
+                    }
+                    Galleries.attachEventHandler(labelSpan, 'click', function(e) {
+                        var activeTab = scriptBlock.activeTab;
+                        labelElems[activeTab].className += otherTabClass;
+                        pres[activeTab].className += hiddenPreClass;
+
+                        codePre.className = codePre.className.replace(hiddenPreClass, '');
+                        labelSpan.className = labelSpan.className.replace(otherTabClass, '');
+                        scriptBlock.activeTab = index;
+                    });
+                });
+
+                var preview = Galleries.findElem(scriptBlock, 'div', 'preview');
+                if (preview.length == 0) {
+                    preview.push(pres[pres.length - 1]);
+                }
+                Galleries.iterateElem(preview, function(index, elem) {
+                    elem.parentNode.removeChild(elem);
+                });
+
+                if (window.clipboardData && clipboardData.setData) {
+                    var copyLink = document.createElement('a');
+                    copyLink.href = 'javascript:void(0);';
+                    copyLink.className = 'copyCode';
+                    copyLink.innerHTML = 'Copiar c&#243;digo';
+                    Galleries.attachEventHandler(copyLink, 'click', function (e) {
+                        clipboardData.setData("Text", htmlDecode(labelElems[scriptBlock.activeTab].code));
+                        return false;
+                    });
+                    scriptBlock.insertBefore(copyLink, scriptBlock.childNodes[0]);
+                }
+            }
+        });
+    }
+
+    Galleries.onWindowLoad(function(){
+        initializePage();
+    });
+
+</script>
+<div id="longDesc">
+    
+<h1>Introdu&ccedil;&atilde;o</h1>
+<p><em>Este exemplo mostra como podemos obter informa&ccedil;&otilde;es da placa m&atilde;e e do processador do computador onde est&aacute; sendo executado o programa usando o namespace <a class="libraryLink" href="http://msdn.microsoft.com/pt-BR/library/System.Management.aspx"  title="Auto generated link to System.Management">System.Management</a> e a classe ManagementObjectSearcher</em></p>
+<p><span style="font-size:20px; font-weight:bold">Descri&ccedil;&atilde;o</span></p>
+<p>ManagementObjectSearcher:</p>
+<p>Recupera uma cole&ccedil;&atilde;o de objetos de gerenciamento com base em uma consulta especificada. Essa classe &eacute; um dos pontos de entrada mais comumente usados para recuperar informa&ccedil;&otilde;es de gerenciamento. Por exemplo, ele pode ser
+ usado para enumerar todas as unidades de disco, adaptadores de rede, processos e muitos mais objetos de gerenciamento em um sistema ou consultar para obter todas as conex&otilde;es de rede que s&atilde;o at&eacute;, servi&ccedil;os que est&atilde;o em pausa
+ e assim por diante. Quando instanciado, uma inst&acirc;ncia dessa classe toma como entrada uma consulta do WMI &eacute; representada em um ObjectQuery ou seus derivados e, opcionalmente, um ManagementScope representando o namespace WMI para executar o pol
+ de consulta. Ele tamb&eacute;m pode aproveitar as op&ccedil;&otilde;es avan&ccedil;adas adicionais um EnumerationOptions. Quando o Get() m&eacute;todo neste objeto &eacute; invocado, o ManagementObjectSearcher executa a consulta fornecida no escopo especificado
+ e retorna uma cole&ccedil;&atilde;o de objetos de gerenciamento que correspondem a consulta em um ManagementObjectCollection.</p>
+<p>&nbsp;</p>
+<p><em>Atrav&eacute;s da classe&nbsp;<strong>ManagementObjectSearcher</strong> do namespace
+<strong><a class="libraryLink" href="http://msdn.microsoft.com/pt-BR/library/System.Management.aspx"  title="Auto generated link to System.Management">System.Management</a></strong> podemos obter informa&ccedil;&otilde;es da placa m&atilde;e como modelo, fabricante, vers&atilde;o, data de instala&ccedil;&atilde;o, e informa&ccedil;&otilde;es do processador.</em></p>
+<p><em>A consulta &eacute; feita em SQL e com o m&eacute;todo Get() obtemos uma lista de objetos do tipo&nbsp;ManagementObject onde acessamos as propriedades de forma semelhante ao ADO.NET DataReader.</em></p>
+<p>&nbsp;</p>
+<p>Cada ManagementObject no foreach do processador representa um processador ou um n&uacute;cleo do processador no foreach da placa m&atilde;e cada ManagementObject representa uma placa m&atilde;e instalada no computador.</p>
+<p>&nbsp;</p>
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>C#</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Editar Script</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">csharp</span>
+<pre class="hidden">            ManagementObjectSearcher s2 = new ManagementObjectSearcher(&quot;root\\CIMV2&quot;, &quot;SELECT * FROM Win32_Processor&quot;);
+
+            foreach (ManagementObject mo in s2.Get())
+                Console.WriteLine(&quot;Processador: {0}&quot;, mo[&quot;Name&quot;]);
+
+
+            ManagementObjectSearcher objMOS = new ManagementObjectSearcher(&quot;root\\CIMV2&quot;, &quot;SELECT * FROM  Win32_BaseBoard&quot;);
+
+            foreach (ManagementObject objManagemnet in objMOS.Get())
+            {
+                try
+                {
+                    Console.WriteLine(&quot;======================================================================&quot;);
+                    Console.WriteLine(&quot;                Detalhes da Placa M&atilde;e                                 &quot;);
+                    Console.WriteLine(&quot;======================================================================&quot;);
+                    Console.WriteLine(&quot;Caption             :&quot; &#43; objManagemnet.GetPropertyValue(&quot;Caption&quot;).ToString());
+                    Console.WriteLine(&quot;CreationClassName   :&quot; &#43; objManagemnet.GetPropertyValue(&quot;CreationClassName&quot;).ToString());
+                    Console.WriteLine(&quot;Description         :&quot; &#43; objManagemnet.GetPropertyValue(&quot;Description&quot;).ToString());
+                    Console.WriteLine(&quot;InstallDate         :&quot; &#43; Convert.ToDateTime(objManagemnet.GetPropertyValue(&quot;InstallDate&quot;)));
+                    Console.WriteLine(&quot;Manufacturer        :&quot; &#43; objManagemnet.GetPropertyValue(&quot;Manufacturer&quot;).ToString());
+                    Console.WriteLine(&quot;Model               :&quot; &#43; Convert.ToString(objManagemnet.GetPropertyValue(&quot;Model&quot;)));
+                    Console.WriteLine(&quot;Name                :&quot; &#43; objManagemnet.GetPropertyValue(&quot;Name&quot;).ToString());
+                    Console.WriteLine(&quot;PartNumber          :&quot; &#43; Convert.ToInt32(objManagemnet.GetPropertyValue(&quot;PartNumber&quot;)));
+                    Console.WriteLine(&quot;PoweredOn           :&quot; &#43; objManagemnet.GetPropertyValue(&quot;PoweredOn&quot;).ToString());
+                    Console.WriteLine(&quot;Product             :&quot; &#43; objManagemnet.GetPropertyValue(&quot;Product&quot;).ToString());
+                    Console.WriteLine(&quot;SerialNumber        :&quot; &#43; objManagemnet.GetPropertyValue(&quot;SerialNumber&quot;).ToString());
+                    Console.WriteLine(&quot;SKU                 :&quot; &#43; Convert.ToString(objManagemnet.GetPropertyValue(&quot;SKU&quot;)));
+                    Console.WriteLine(&quot;Status              :&quot; &#43; Convert.ToString(objManagemnet.GetPropertyValue(&quot;Status&quot;)));
+                    Console.WriteLine(&quot;Tag                 :&quot; &#43; Convert.ToString(objManagemnet.GetPropertyValue(&quot;Tag&quot;)));
+                    Console.WriteLine(&quot;Version             :&quot; &#43; Convert.ToString(objManagemnet.GetPropertyValue(&quot;Version&quot;)));
+                    Console.WriteLine(&quot;Weight              :&quot; &#43; Convert.ToString(objManagemnet.GetPropertyValue(&quot;Weight&quot;)));
+                    Console.WriteLine(&quot;Height              :&quot; &#43; Convert.ToString(objManagemnet.GetPropertyValue(&quot;Height&quot;)));
+                    Console.WriteLine(&quot;PoweredOn           :&quot; &#43; Convert.ToString(objManagemnet.GetPropertyValue(&quot;PoweredOn&quot;)));
+                }
+                catch (Exception ex) { }
+            }
+
+            Console.ReadKey();</pre>
+<div class="preview">
+<pre class="csharp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ManagementObjectSearcher&nbsp;s2&nbsp;=&nbsp;<span class="cs__keyword">new</span>&nbsp;ManagementObjectSearcher(<span class="cs__string">&quot;root\\CIMV2&quot;</span>,&nbsp;<span class="cs__string">&quot;SELECT&nbsp;*&nbsp;FROM&nbsp;Win32_Processor&quot;</span>);&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">foreach</span>&nbsp;(ManagementObject&nbsp;mo&nbsp;<span class="cs__keyword">in</span>&nbsp;s2.Get())&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Processador:&nbsp;{0}&quot;</span>,&nbsp;mo[<span class="cs__string">&quot;Name&quot;</span>]);&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ManagementObjectSearcher&nbsp;objMOS&nbsp;=&nbsp;<span class="cs__keyword">new</span>&nbsp;ManagementObjectSearcher(<span class="cs__string">&quot;root\\CIMV2&quot;</span>,&nbsp;<span class="cs__string">&quot;SELECT&nbsp;*&nbsp;FROM&nbsp;&nbsp;Win32_BaseBoard&quot;</span>);&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">foreach</span>&nbsp;(ManagementObject&nbsp;objManagemnet&nbsp;<span class="cs__keyword">in</span>&nbsp;objMOS.Get())&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">try</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;======================================================================&quot;</span>);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detalhes&nbsp;da&nbsp;Placa&nbsp;M&atilde;e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;</span>);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;======================================================================&quot;</span>);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Caption&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Caption&quot;</span>).ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;CreationClassName&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;objManagemnet.GetPropertyValue(<span class="cs__string">&quot;CreationClassName&quot;</span>).ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Description&quot;</span>).ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;InstallDate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToDateTime(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;InstallDate&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Manufacturer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Manufacturer&quot;</span>).ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToString(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Model&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Name&quot;</span>).ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;PartNumber&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToInt32(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;PartNumber&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;PoweredOn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;objManagemnet.GetPropertyValue(<span class="cs__string">&quot;PoweredOn&quot;</span>).ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Product&quot;</span>).ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;SerialNumber&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;objManagemnet.GetPropertyValue(<span class="cs__string">&quot;SerialNumber&quot;</span>).ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;SKU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToString(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;SKU&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToString(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Status&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Tag&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToString(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Tag&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Version&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToString(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Version&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Weight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToString(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Weight&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;Height&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToString(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;Height&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="cs__string">&quot;PoweredOn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&quot;</span>&nbsp;&#43;&nbsp;Convert.ToString(objManagemnet.GetPropertyValue(<span class="cs__string">&quot;PoweredOn&quot;</span>)));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">catch</span>&nbsp;(Exception&nbsp;ex)&nbsp;{&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.ReadKey();</pre>
+</div>
+</div>
+</div>
+<h1>Arquivos</h1>
+<ul>
+<li><em>Program.cs - Arquivo principal de execu&ccedil;&atilde;o do programa Console Application.</em>
+</li></ul>
+<h1>Mais Informa&ccedil;&otilde;es</h1>
+<p><em>Para mais informa&ccedil;&otilde;es a respeito deste exemplo entre em contato pelo site
+<a href="http://pedrofernandes.net">http://pedrofernandes.net</a></em></p>
+
+</div>
+
+
+    </div>
+</body>
+</html>

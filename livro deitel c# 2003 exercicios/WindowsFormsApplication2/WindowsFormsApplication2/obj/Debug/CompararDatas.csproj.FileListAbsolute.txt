@@ -1,0 +1,3 @@
+D:\Projetos_Visual_Studio\livro deitel c# 2003 exercicios\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+D:\Projetos_Visual_Studio\livro deitel c# 2003 exercicios\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+D:\Projetos_Visual_Studio\livro deitel c# 2003 exercicios\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
